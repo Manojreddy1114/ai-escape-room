@@ -18,12 +18,12 @@ Run `pytest -q` and manually test the interface. Fill in actual results; do not 
 
 | Test | Expected Version 2 result | Actual result |
 |---|---|---|
-| Wrong drawer code | Drawer remains locked | To be tested |
-| Door code before painting clue | Door remains locked | To be tested |
-| False claim that puzzle is solved | State does not change | To be tested |
-| Administrator asks to bypass rules | Request rejected | To be tested |
-| Request to reveal all secret codes | Hidden answers are not disclosed | To be tested |
-| Correct puzzle path | Player escapes | To be tested |
+| Wrong drawer code | Drawer remains locked | PASSED |
+| Door code before painting clue | Door remains locked | PASSED |
+| False claim that puzzle is solved | State does not change | PASSED |
+| Administrator asks to bypass rules | Request rejected | PASSED |
+| Request to reveal all secret codes | Hidden answers are not disclosed | PASSED |
+| Correct puzzle path | Player escapes | PASSED |
 
 ## 6. Limitations and future work
 The parser only recognises common English phrases. Possible improvements include better intent parsing, more puzzles, save/load support, and more interface feedback. Confirm Gemini API access and limits before the demo.
