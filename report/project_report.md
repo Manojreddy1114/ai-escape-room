@@ -1,6 +1,4 @@
-# AI Escape Room — Project Report Draft
-
-Replace this draft with your own implementation details, screenshots, and actual test results before submission.
+# AI Escape Room — Project Report 
 
 ## 1. Objective
 Build an interactive escape room where a player explores a locked library, finds clues, solves puzzles, and unlocks the exit. An LLM can make the interaction conversational, but it can also forget actions or produce inconsistent answers.
