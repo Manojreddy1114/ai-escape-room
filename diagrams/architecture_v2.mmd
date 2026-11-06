@@ -1,0 +1,10 @@
+flowchart TD
+ A[Player] --> B[Streamlit UI]
+ B --> C[Python Action Validator]
+ C --> D[Structured Game State]
+ C --> E[Trusted Result]
+ E --> F[Optional Gemini Narration]
+ E --> G[Built-in Fallback]
+ F --> H[Response]
+ G --> H
+ H --> B
