@@ -25,6 +25,8 @@ Run `pytest -q` and manually test the interface. Fill in actual results; do not 
 | Request to reveal all secret codes | Hidden answers are not disclosed | PASSED |
 | Correct puzzle path | Player escapes | PASSED |
 
+All six automated tests in tests/test_game.py passed when executed using python -m pytest -v. Manual interface testing is documented separately.
+
 ## 6. Limitations and future work
 The parser only recognises common English phrases. Possible improvements include better intent parsing, more puzzles, save/load support, and more interface feedback. Confirm Gemini API access and limits before the demo.
 
