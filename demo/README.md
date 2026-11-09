@@ -1,1 +1,7 @@
-Optional: add a short screen recording showing a normal escape and one invalid/adversarial action in Version 2.
+
+
+
+https://github.com/user-attachments/assets/3e82b4de-1716-4e63-88db-045c8b4aab38
+
+
+
