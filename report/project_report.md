@@ -30,5 +30,12 @@ All six automated tests in tests/test_game.py passed when executed using python 
 ## 6. Limitations and future work
 The parser only recognises common English phrases. Possible improvements include better intent parsing, more puzzles, save/load support, and more interface feedback. Confirm Gemini API access and limits before the demo.
 
-## 7. Personal reflection
-Add what you learned, bugs you encountered, how you fixed them, and screenshots of both versions. Explain why trusted game logic should be separated from LLM-generated narration.
+## 7. Personal reflection## 7. Personal Reflection
+
+Through this project, I learned how to build an interactive application using Python and Streamlit. I also learned how Large Language Models can make an application more conversational and interactive.
+
+One of the main challenges was maintaining consistency in the game. An LLM may generate incorrect answers or claim that a puzzle is solved when it is not. I addressed this in Version 2 by separating the game logic from the AI-generated responses.
+
+I used Python to manage the game state, validate player actions, track clues and inventory, and control the escape conditions. I also created automated tests to check incorrect actions, security-related attempts, restarting the game, and successful completion.
+
+This project helped me understand why important application rules should be controlled by reliable Python logic rather than depending entirely on an LLM.
