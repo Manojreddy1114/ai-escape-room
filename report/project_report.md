@@ -30,7 +30,7 @@ All six automated tests in tests/test_game.py passed when executed using python 
 ## 6. Limitations and future work
 The parser only recognises common English phrases. Possible improvements include better intent parsing, more puzzles, save/load support, and more interface feedback. Confirm Gemini API access and limits before the demo.
 
-## 7. Personal reflection## 7. Personal Reflection
+## 7. Personal reflection
 
 Through this project, I learned how to build an interactive application using Python and Streamlit. I also learned how Large Language Models can make an application more conversational and interactive.
 
