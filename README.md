@@ -75,12 +75,3 @@ flowchart TD
 ## Limitations
 The action parser recognises common English phrases, not every possible sentence. Version 1 is a baseline and is not a secure game engine. Version 2 reduces the risk of the LLM changing rules because Python controls state, but it is not a complete security system. Internet and a valid key are required for Gemini narration.
 
-## Suggested Git commits
-```bash
-git add README.md requirements.txt .gitignore .env.example
-git commit -m "Add project setup and documentation"
-git add app_v1.py
-git commit -m "Build initial AI escape room"
-git add game_logic.py app_v2.py tests/
-git commit -m "Add validated game state and tests"
-```
